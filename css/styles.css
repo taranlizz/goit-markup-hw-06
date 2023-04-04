@@ -330,8 +330,7 @@ img {
   margin-bottom: 8px;
 }
 
-.team-soc-list,
-.footer-soc-list {
+.team-soc-list {
   display: flex;
   gap: var(--gap);
 }
@@ -404,7 +403,10 @@ img {
 
 .footer-container {
   display: flex;
-  gap: 120px;
+}
+
+.footer-wrap {
+  margin-right: 120px;
 }
 
 .footer-logo {
@@ -424,6 +426,15 @@ img {
 .footer-text {
   width: 264px;
   color: var(--light-accent);
+}
+
+.footer-soc-wrap {
+  margin-right: auto;
+}
+
+.footer-soc-list {
+  display: flex;
+  gap: 16px;
 }
 
 .footer-soc-text,
@@ -453,7 +464,7 @@ img {
 
 .footer-form-wrapper {
   display: flex;
-  gap: 24px;
+  gap: var(--gap);
 }
 
 .footer-form-input {
